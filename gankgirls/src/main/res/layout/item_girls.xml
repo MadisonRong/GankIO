@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    card:cardCornerRadius="5dp"
+    card:cardElevation="5dp"
+    card:cardPreventCornerOverlap="true"
+    card:contentPadding="0dp">
+
+    <ImageView
+        android:id="@+id/item_girls_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:ignore="ContentDescription" />
+
+    <!--<com.bm.library.PhotoView-->
+        <!--android:id="@+id/photo_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone" />-->
+
+</android.support.v7.widget.CardView>
